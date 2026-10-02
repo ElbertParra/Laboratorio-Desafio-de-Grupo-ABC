@@ -1,0 +1,57 @@
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 200px 10px;
+}
+
+.controles button {
+    min-width: 130px;
+    transition: 0.3s;
+}
+
+.controles button:hover {
+    transform: scale(1.05);
+}
+
+
+.abecedario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.letra {
+    padding: 20px;
+    width: 80px;
+    text-align: center;
+    border: 2px solid #0d6efd;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie-pagina {
+    margin-top: auto;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+}
