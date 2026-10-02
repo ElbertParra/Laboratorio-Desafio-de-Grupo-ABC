@@ -18,3 +18,68 @@ body {
 .card-title {
     font-size: 50px;
 }
+
+
+.pie-pagina {
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 250px;
+}
+
+
+.pie-pagina p {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+
+.pie-pagina span {
+    margin: 0 15px;
+}
+
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 200px 10px;
+    margin-top: 40px;
+}
+
+
+
+/* elbert */
+
+.navbar {
+    background-color: #857c03;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.contador-container {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge {
+    background-color: #54dad1;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}

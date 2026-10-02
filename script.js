@@ -1,6 +1,6 @@
 const btnVocales = document.getElementById("btnVocales");
 const btnTodo = document.getElementById("btnTodo");
-const letras = document.querySelectorAll(".cris"); //cambiar con el id de la clase del abcedario
+const letras = document.querySelectorAll(".container .row .col"); //cambiar con el id de la clase del abcedario
 
 const vocales = ["A", "E", "I", "O", "U"];
 
@@ -19,22 +19,27 @@ btnTodo.addEventListener("click", () => {
 });
 
 
+//vocales esto esta diferente al que teniamos inicialmente en main
+btnVocales.addEventListener("click", () => {
 
-btnVocales.addEventListener("click", function () {
-    letras.forEach(function (letra) {
-        const valor = letra.textContent.trim().toUpperCase();
+    letras.forEach(letra => {
 
-        if (vocales.includes(valor)) {
+        const titulo = letra.querySelector(".card-title"); //nuevo
+
+        if (!titulo) {
+            return;
+        }
+
+        const inicial = titulo.textContent.trim().charAt(0).toUpperCase();
+
+        if (vocales.includes(inicial)) {
             letra.style.display = "";
         } else {
             letra.style.display = "none";
         }
+
     });
+
 });
 
 
-btnTodo.addEventListener("click", function () {
-    letras.forEach(function (letra) {
-        letra.style.display = "";
-    });
-});

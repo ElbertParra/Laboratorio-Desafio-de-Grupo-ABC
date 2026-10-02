@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 .controles {
     display: flex;
     justify-content: center;
     gap: 15px;
     margin: 200px 10px;
+    margin-top: 40px;
 }
 
 .controles button {
@@ -45,22 +45,22 @@ body {
 }
 
 .pie-pagina {
-    margin-top: auto;
     width: 100%;
     background-color: #212529;
-=======
-.navbar {
-    background-color: #857c03;
->>>>>>> origin/letras-G-M
     color: white;
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    text-align: center;
+    padding: 15px;
+    margin-top: 300px;
+}
+
+
+.pie-pagina p {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+
+.pie-pagina span {
+    margin: 0 15px;
 }
 
 .navbar .logo {
@@ -82,10 +82,7 @@ body {
     font-weight: bold;
     color: white;
 }
-<<<<<<< HEAD
 body {
     background-color: gray important!;
 }
 
-=======
->>>>>>> origin/letras-G-M
