@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #857c03;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.contador-container {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge {
+    background-color: #54dad1;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
