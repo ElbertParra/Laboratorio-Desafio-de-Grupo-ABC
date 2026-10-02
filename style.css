@@ -55,3 +55,7 @@ body {
     gap: 30px;
     box-sizing: border-box;
 }
+body {
+    background-color: gray important!;
+}
+
