@@ -1,5 +1,7 @@
+/* estilos de la barra de navegacion */
+
 .navbar {
-    background-color: #857c03;
+    background-color: #85516d;
     color: white;
     padding: 15px 30px;
     display: flex;
@@ -31,19 +33,18 @@
     color: white;
 }
 
+/* estilos de las tarjetas */
+
 body {
     background-color: gray important!;
 }
 
 .col {
-    padding-top: 100px;
     height: 100px;
-    margin-left: 100px important!;
-    background-color: rgb(221, 218, 218);
 }
 
 .card-body {
-    background-color: rgb(170, 147, 43);
+    background-color: rgb(174, 200, 211);
     margin-left: 100px important!;
     height: 200px;
 }
@@ -52,11 +53,14 @@ body {
     font-size: 50px;
 }
 
+/* estilos de los botones*/
+
 .controles {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin: 200px 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .controles button {
@@ -83,6 +87,7 @@ body {
     border: 2px solid #0d6efd;
     border-radius: 10px;
     font-size: 25px;
+    margin-bottom: -2000px;
 }
 
 
